@@ -7,12 +7,19 @@
 //
 
 #import "CIKAppDelegate.h"
+#import "CIKMainWindowController.h"
+
+@interface CIKAppDelegate ()
+
+@property (nonatomic, strong) CIKMainWindowController *mainWindow;
+
+@end
 
 @implementation CIKAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    self.mainWindow = [[CIKMainWindowController alloc] init];
+    self.window = self.mainWindow.window;
 }
 
 @end

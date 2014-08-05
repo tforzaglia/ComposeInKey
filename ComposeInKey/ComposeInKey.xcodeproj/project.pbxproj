@@ -18,6 +18,8 @@
 		4914F01C1990745600CD0920 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4914EFFB1990745600CD0920 /* Cocoa.framework */; };
 		4914F0241990745600CD0920 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4914F0221990745600CD0920 /* InfoPlist.strings */; };
 		4914F0261990745600CD0920 /* ComposeInKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914F0251990745600CD0920 /* ComposeInKeyTests.m */; };
+		4914F0341990771600CD0920 /* CIKMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914F0321990771600CD0920 /* CIKMainWindowController.m */; };
+		4914F0351990771600CD0920 /* CIKMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4914F0331990771600CD0920 /* CIKMainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		4914F0211990745600CD0920 /* ComposeInKeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComposeInKeyTests-Info.plist"; sourceTree = "<group>"; };
 		4914F0231990745600CD0920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4914F0251990745600CD0920 /* ComposeInKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeInKeyTests.m; sourceTree = "<group>"; };
+		4914F0311990771600CD0920 /* CIKMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIKMainWindowController.h; sourceTree = "<group>"; };
+		4914F0321990771600CD0920 /* CIKMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIKMainWindowController.m; sourceTree = "<group>"; };
+		4914F0331990771600CD0920 /* CIKMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIKMainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				4914F0101990745600CD0920 /* MainMenu.xib */,
+				4914F0311990771600CD0920 /* CIKMainWindowController.h */,
+				4914F0321990771600CD0920 /* CIKMainWindowController.m */,
+				4914F0331990771600CD0920 /* CIKMainWindow.xib */,
 			);
 			name = Window;
 			sourceTree = "<group>";
@@ -251,6 +259,7 @@
 				4914F0141990745600CD0920 /* Images.xcassets in Resources */,
 				4914F00C1990745600CD0920 /* Credits.rtf in Resources */,
 				4914F0121990745600CD0920 /* MainMenu.xib in Resources */,
+				4914F0351990771600CD0920 /* CIKMainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4914F00F1990745600CD0920 /* CIKAppDelegate.m in Sources */,
+				4914F0341990771600CD0920 /* CIKMainWindowController.m in Sources */,
 				4914F0081990745600CD0920 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
