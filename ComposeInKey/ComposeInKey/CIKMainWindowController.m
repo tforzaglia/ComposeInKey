@@ -10,8 +10,6 @@
 
 @interface CIKMainWindowController ()
 
-# pragma mark IBOutlet
-
 @property (nonatomic, weak) IBOutlet NSTextField *keyName;
 
 @property (nonatomic, weak) IBOutlet NSTextField *note1;
@@ -31,6 +29,10 @@
 
 @property (nonatomic, weak) IBOutlet NSImageView *chordImage;
 
+@property (nonatomic,strong) IBOutlet NSMutableArray *notes;
+
+- (IBAction)selectKey:(id)sender;
+
 @end
 
 @implementation CIKMainWindowController
@@ -42,6 +44,14 @@
 
 - (void)windowDidLoad {
     [super windowDidLoad];
+}
+
+- (IBAction)selectKey:(id)sender {
+    [self.keyName setStringValue:[sender title]];
+}
+
+- (void)fillInNoteListForKey:(NSString *)key {
+
 }
 
 @end
