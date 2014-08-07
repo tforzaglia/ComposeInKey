@@ -10,6 +10,27 @@
 
 @interface CIKMainWindowController ()
 
+# pragma mark IBOutlet
+
+@property (nonatomic, weak) IBOutlet NSTextField *keyName;
+
+@property (nonatomic, weak) IBOutlet NSTextField *note1;
+@property (nonatomic, weak) IBOutlet NSTextField *note2;
+@property (nonatomic, weak) IBOutlet NSTextField *note3;
+@property (nonatomic, weak) IBOutlet NSTextField *note4;
+@property (nonatomic, weak) IBOutlet NSTextField *note5;
+@property (nonatomic, weak) IBOutlet NSTextField *note6;
+@property (nonatomic, weak) IBOutlet NSTextField *note7;
+
+@property (nonatomic, weak) IBOutlet NSTextField *chord1;
+@property (nonatomic, weak) IBOutlet NSTextField *chord2;
+@property (nonatomic, weak) IBOutlet NSTextField *chord3;
+@property (nonatomic, weak) IBOutlet NSTextField *chord4;
+@property (nonatomic, weak) IBOutlet NSTextField *chord5;
+@property (nonatomic, weak) IBOutlet NSTextField *chord6;
+
+@property (nonatomic, weak) IBOutlet NSImageView *chordImage;
+
 @end
 
 @implementation CIKMainWindowController
