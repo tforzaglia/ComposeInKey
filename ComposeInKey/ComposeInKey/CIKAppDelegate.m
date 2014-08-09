@@ -18,6 +18,7 @@
 @implementation CIKAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    [self.window close];
     self.mainWindow = [[CIKMainWindowController alloc] init];
     self.window = self.mainWindow.window;
 }
