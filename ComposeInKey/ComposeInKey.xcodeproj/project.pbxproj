@@ -45,6 +45,7 @@
 		4942391F1997046E0027AB07 /* G#.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239061997046E0027AB07 /* G#.gif */; };
 		494239201997046E0027AB07 /* G#m.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239071997046E0027AB07 /* G#m.gif */; };
 		494239211997046E0027AB07 /* A.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239081997046E0027AB07 /* A.gif */; };
+		4942392519970F9A0027AB07 /* CIKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4942392419970F9A0027AB07 /* CIKTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,8 @@
 		494239061997046E0027AB07 /* G#.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "G#.gif"; sourceTree = "<group>"; };
 		494239071997046E0027AB07 /* G#m.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "G#m.gif"; sourceTree = "<group>"; };
 		494239081997046E0027AB07 /* A.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = A.gif; sourceTree = "<group>"; };
+		4942392319970F9A0027AB07 /* CIKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIKTextField.h; sourceTree = "<group>"; };
+		4942392419970F9A0027AB07 /* CIKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIKTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				4914F02F1990754500CD0920 /* Application */,
+				4942392219970F5D0027AB07 /* Model */,
 				4914F0301990754E00CD0920 /* Window */,
 				4914F0131990745600CD0920 /* Images.xcassets */,
 				494238EF199704530027AB07 /* Images */,
@@ -259,6 +263,15 @@
 				494239071997046E0027AB07 /* G#m.gif */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		4942392219970F5D0027AB07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4942392319970F9A0027AB07 /* CIKTextField.h */,
+				4942392419970F9A0027AB07 /* CIKTextField.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4914F00F1990745600CD0920 /* CIKAppDelegate.m in Sources */,
+				4942392519970F9A0027AB07 /* CIKTextField.m in Sources */,
 				4914F0341990771600CD0920 /* CIKMainWindowController.m in Sources */,
 				4914F0081990745600CD0920 /* main.m in Sources */,
 			);
