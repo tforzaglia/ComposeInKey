@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Thomas Forzaglia. All rights reserved.
 //
 
-#import "CIKTextField.h"
 #import "CIKMainWindowController.h"
+#import "CIKTextField.h"
 
 @interface CIKTextField ()
 
@@ -25,14 +25,13 @@
 
 - (void)createTrackingArea {
     self.trackingArea = [ [NSTrackingArea alloc] initWithRect:[self bounds]
-                                                 options:(NSTrackingMouseEnteredAndExited | NSTrackingActiveAlways)
-                                                   owner:self
-                                                userInfo:nil];
+                                                      options:(NSTrackingMouseEnteredAndExited | NSTrackingActiveAlways)
+                                                        owner:self
+                                                     userInfo:nil];
     [self addTrackingArea:self.trackingArea];
     
     NSPoint mouseLocation = [[self window] mouseLocationOutsideOfEventStream];
-    mouseLocation = [self convertPoint: mouseLocation
-                              fromView: nil];
+    mouseLocation = [self convertPoint: mouseLocation fromView: nil];
     
     if (NSPointInRect(mouseLocation, [self bounds])) {
         [self mouseEntered: nil];
