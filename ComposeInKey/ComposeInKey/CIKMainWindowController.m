@@ -7,6 +7,7 @@
 //
 
 #import "CIKMainWindowController.h"
+#import "CIKTextField.h"
 
 @interface CIKMainWindowController ()
 
@@ -22,12 +23,12 @@
 @property (nonatomic, weak) IBOutlet NSTextField *note6;
 @property (nonatomic, weak) IBOutlet NSTextField *note7;
 
-@property (nonatomic, weak) IBOutlet NSTextField *chord1;
-@property (nonatomic, weak) IBOutlet NSTextField *chord2;
-@property (nonatomic, weak) IBOutlet NSTextField *chord3;
-@property (nonatomic, weak) IBOutlet NSTextField *chord4;
-@property (nonatomic, weak) IBOutlet NSTextField *chord5;
-@property (nonatomic, weak) IBOutlet NSTextField *chord6;
+@property (nonatomic, weak) IBOutlet CIKTextField *chord1;
+@property (nonatomic, weak) IBOutlet CIKTextField *chord2;
+@property (nonatomic, weak) IBOutlet CIKTextField *chord3;
+@property (nonatomic, weak) IBOutlet CIKTextField *chord4;
+@property (nonatomic, weak) IBOutlet CIKTextField *chord5;
+@property (nonatomic, weak) IBOutlet CIKTextField *chord6;
 
 @property (nonatomic, weak) IBOutlet NSImageView *chordImage;
 
@@ -35,7 +36,6 @@
 
 @property (nonatomic,strong) NSMutableArray *noteArray;
 @property (nonatomic,strong) NSMutableArray *noteTextFieldArray;
-
 @property (nonatomic,strong) NSMutableArray *chordArray;
 @property (nonatomic,strong) NSMutableArray *chordTextFieldArray;
 
@@ -45,6 +45,8 @@
 - (void)fillInNoteAndChordListsForKey:(NSString *)key;
 - (void)updateNoteTextViews;
 - (void)updateChordTextViews;
+- (void)addNotificationObserver;
+- (void)displayChordPicture:(NSNotification *)notification;
 
 @end
 
@@ -54,6 +56,7 @@
     self = [super initWithWindowNibName:@"CIKMainWindow"];
     self.noteArray = [[NSMutableArray alloc] init];
     self.chordArray = [[NSMutableArray alloc] init];
+    [self addNotificationObserver];
     return self;
 }
 
@@ -61,6 +64,7 @@
     [super windowDidLoad];
     self.noteTextFieldArray = [[NSMutableArray alloc] initWithArray:@[self.note1, self.note2, self.note3, self.note4, self.note5, self.note6, self.note7]];
     self.chordTextFieldArray = [[NSMutableArray alloc] initWithArray:@[self.chord1, self.chord2, self.chord3, self.chord4, self.chord5, self.chord6]];
+    [self.chordImage setImage:[NSImage imageNamed:@"note.jpeg"]];
 }
 
 - (IBAction)selectKey:(id)sender {
@@ -120,6 +124,16 @@
     for (int i = 0; i < [self.chordArray count]; i++) {
         [self.chordTextFieldArray[i] setStringValue:self.chordArray[i]];
     }
+}
+
+- (void)addNotificationObserver {
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(displayChordPicture:)
+                                                 name:@"DisplayNewChordPic" object:nil];
+}
+
+- (void)displayChordPicture:(NSNotification *)notification {
+    [self.chordImage setImage:[NSImage imageNamed:[notification object]]];
 }
 
 @end
