@@ -20,6 +20,31 @@
 		4914F0261990745600CD0920 /* ComposeInKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914F0251990745600CD0920 /* ComposeInKeyTests.m */; };
 		4914F0341990771600CD0920 /* CIKMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914F0321990771600CD0920 /* CIKMainWindowController.m */; };
 		4914F0351990771600CD0920 /* CIKMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4914F0331990771600CD0920 /* CIKMainWindow.xib */; };
+		494239091997046E0027AB07 /* note.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 494238F01997046E0027AB07 /* note.jpeg */; };
+		4942390A1997046E0027AB07 /* Am.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F11997046E0027AB07 /* Am.gif */; };
+		4942390B1997046E0027AB07 /* A#.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F21997046E0027AB07 /* A#.gif */; };
+		4942390C1997046E0027AB07 /* A#m.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F31997046E0027AB07 /* A#m.gif */; };
+		4942390D1997046E0027AB07 /* B.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F41997046E0027AB07 /* B.gif */; };
+		4942390E1997046E0027AB07 /* Bm.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F51997046E0027AB07 /* Bm.gif */; };
+		4942390F1997046E0027AB07 /* C.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F61997046E0027AB07 /* C.gif */; };
+		494239101997046E0027AB07 /* Cm.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F71997046E0027AB07 /* Cm.gif */; };
+		494239111997046E0027AB07 /* C#.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F81997046E0027AB07 /* C#.gif */; };
+		494239121997046E0027AB07 /* C#m.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F91997046E0027AB07 /* C#m.gif */; };
+		494239131997046E0027AB07 /* D.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238FA1997046E0027AB07 /* D.gif */; };
+		494239141997046E0027AB07 /* Dm.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238FB1997046E0027AB07 /* Dm.gif */; };
+		494239151997046E0027AB07 /* D#.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238FC1997046E0027AB07 /* D#.gif */; };
+		494239161997046E0027AB07 /* D#m.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238FD1997046E0027AB07 /* D#m.gif */; };
+		494239171997046E0027AB07 /* E.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238FE1997046E0027AB07 /* E.gif */; };
+		494239181997046E0027AB07 /* Em.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238FF1997046E0027AB07 /* Em.gif */; };
+		494239191997046E0027AB07 /* F.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239001997046E0027AB07 /* F.gif */; };
+		4942391A1997046E0027AB07 /* Fm.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239011997046E0027AB07 /* Fm.gif */; };
+		4942391B1997046E0027AB07 /* F#.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239021997046E0027AB07 /* F#.gif */; };
+		4942391C1997046E0027AB07 /* F#m.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239031997046E0027AB07 /* F#m.gif */; };
+		4942391D1997046E0027AB07 /* G.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239041997046E0027AB07 /* G.gif */; };
+		4942391E1997046E0027AB07 /* Gm.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239051997046E0027AB07 /* Gm.gif */; };
+		4942391F1997046E0027AB07 /* G#.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239061997046E0027AB07 /* G#.gif */; };
+		494239201997046E0027AB07 /* G#m.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239071997046E0027AB07 /* G#m.gif */; };
+		494239211997046E0027AB07 /* A.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239081997046E0027AB07 /* A.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +80,31 @@
 		4914F0311990771600CD0920 /* CIKMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIKMainWindowController.h; sourceTree = "<group>"; };
 		4914F0321990771600CD0920 /* CIKMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIKMainWindowController.m; sourceTree = "<group>"; };
 		4914F0331990771600CD0920 /* CIKMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIKMainWindow.xib; sourceTree = "<group>"; };
+		494238F01997046E0027AB07 /* note.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note.jpeg; sourceTree = "<group>"; };
+		494238F11997046E0027AB07 /* Am.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Am.gif; sourceTree = "<group>"; };
+		494238F21997046E0027AB07 /* A#.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "A#.gif"; sourceTree = "<group>"; };
+		494238F31997046E0027AB07 /* A#m.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "A#m.gif"; sourceTree = "<group>"; };
+		494238F41997046E0027AB07 /* B.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = B.gif; sourceTree = "<group>"; };
+		494238F51997046E0027AB07 /* Bm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Bm.gif; sourceTree = "<group>"; };
+		494238F61997046E0027AB07 /* C.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = C.gif; sourceTree = "<group>"; };
+		494238F71997046E0027AB07 /* Cm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Cm.gif; sourceTree = "<group>"; };
+		494238F81997046E0027AB07 /* C#.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "C#.gif"; sourceTree = "<group>"; };
+		494238F91997046E0027AB07 /* C#m.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "C#m.gif"; sourceTree = "<group>"; };
+		494238FA1997046E0027AB07 /* D.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = D.gif; sourceTree = "<group>"; };
+		494238FB1997046E0027AB07 /* Dm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Dm.gif; sourceTree = "<group>"; };
+		494238FC1997046E0027AB07 /* D#.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "D#.gif"; sourceTree = "<group>"; };
+		494238FD1997046E0027AB07 /* D#m.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "D#m.gif"; sourceTree = "<group>"; };
+		494238FE1997046E0027AB07 /* E.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = E.gif; sourceTree = "<group>"; };
+		494238FF1997046E0027AB07 /* Em.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Em.gif; sourceTree = "<group>"; };
+		494239001997046E0027AB07 /* F.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = F.gif; sourceTree = "<group>"; };
+		494239011997046E0027AB07 /* Fm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Fm.gif; sourceTree = "<group>"; };
+		494239021997046E0027AB07 /* F#.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "F#.gif"; sourceTree = "<group>"; };
+		494239031997046E0027AB07 /* F#m.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "F#m.gif"; sourceTree = "<group>"; };
+		494239041997046E0027AB07 /* G.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = G.gif; sourceTree = "<group>"; };
+		494239051997046E0027AB07 /* Gm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Gm.gif; sourceTree = "<group>"; };
+		494239061997046E0027AB07 /* G#.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "G#.gif"; sourceTree = "<group>"; };
+		494239071997046E0027AB07 /* G#m.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "G#m.gif"; sourceTree = "<group>"; };
+		494239081997046E0027AB07 /* A.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = A.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +173,7 @@
 				4914F02F1990754500CD0920 /* Application */,
 				4914F0301990754E00CD0920 /* Window */,
 				4914F0131990745600CD0920 /* Images.xcassets */,
+				494238EF199704530027AB07 /* Images */,
 				4914F0021990745600CD0920 /* Supporting Files */,
 			);
 			path = ComposeInKey;
@@ -176,6 +227,38 @@
 				4914F0331990771600CD0920 /* CIKMainWindow.xib */,
 			);
 			name = Window;
+			sourceTree = "<group>";
+		};
+		494238EF199704530027AB07 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				494238F01997046E0027AB07 /* note.jpeg */,
+				494239081997046E0027AB07 /* A.gif */,
+				494238F11997046E0027AB07 /* Am.gif */,
+				494238F21997046E0027AB07 /* A#.gif */,
+				494238F31997046E0027AB07 /* A#m.gif */,
+				494238F41997046E0027AB07 /* B.gif */,
+				494238F51997046E0027AB07 /* Bm.gif */,
+				494238F61997046E0027AB07 /* C.gif */,
+				494238F71997046E0027AB07 /* Cm.gif */,
+				494238F81997046E0027AB07 /* C#.gif */,
+				494238F91997046E0027AB07 /* C#m.gif */,
+				494238FA1997046E0027AB07 /* D.gif */,
+				494238FB1997046E0027AB07 /* Dm.gif */,
+				494238FC1997046E0027AB07 /* D#.gif */,
+				494238FD1997046E0027AB07 /* D#m.gif */,
+				494238FE1997046E0027AB07 /* E.gif */,
+				494238FF1997046E0027AB07 /* Em.gif */,
+				494239001997046E0027AB07 /* F.gif */,
+				494239011997046E0027AB07 /* Fm.gif */,
+				494239021997046E0027AB07 /* F#.gif */,
+				494239031997046E0027AB07 /* F#m.gif */,
+				494239041997046E0027AB07 /* G.gif */,
+				494239051997046E0027AB07 /* Gm.gif */,
+				494239061997046E0027AB07 /* G#.gif */,
+				494239071997046E0027AB07 /* G#m.gif */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,11 +338,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494239101997046E0027AB07 /* Cm.gif in Resources */,
+				4942390F1997046E0027AB07 /* C.gif in Resources */,
+				4942391B1997046E0027AB07 /* F#.gif in Resources */,
+				494239201997046E0027AB07 /* G#m.gif in Resources */,
+				4942391F1997046E0027AB07 /* G#.gif in Resources */,
 				4914F0061990745600CD0920 /* InfoPlist.strings in Resources */,
+				4942391A1997046E0027AB07 /* Fm.gif in Resources */,
 				4914F0141990745600CD0920 /* Images.xcassets in Resources */,
+				4942390E1997046E0027AB07 /* Bm.gif in Resources */,
+				494239141997046E0027AB07 /* Dm.gif in Resources */,
+				494239151997046E0027AB07 /* D#.gif in Resources */,
+				4942391E1997046E0027AB07 /* Gm.gif in Resources */,
+				494239211997046E0027AB07 /* A.gif in Resources */,
+				494239111997046E0027AB07 /* C#.gif in Resources */,
 				4914F00C1990745600CD0920 /* Credits.rtf in Resources */,
+				4942391C1997046E0027AB07 /* F#m.gif in Resources */,
+				4942390A1997046E0027AB07 /* Am.gif in Resources */,
+				4942390C1997046E0027AB07 /* A#m.gif in Resources */,
+				494239191997046E0027AB07 /* F.gif in Resources */,
+				4942390D1997046E0027AB07 /* B.gif in Resources */,
+				494239091997046E0027AB07 /* note.jpeg in Resources */,
+				494239181997046E0027AB07 /* Em.gif in Resources */,
+				4942390B1997046E0027AB07 /* A#.gif in Resources */,
+				494239171997046E0027AB07 /* E.gif in Resources */,
+				4942391D1997046E0027AB07 /* G.gif in Resources */,
+				494239161997046E0027AB07 /* D#m.gif in Resources */,
 				4914F0121990745600CD0920 /* MainMenu.xib in Resources */,
+				494239131997046E0027AB07 /* D.gif in Resources */,
 				4914F0351990771600CD0920 /* CIKMainWindow.xib in Resources */,
+				494239121997046E0027AB07 /* C#m.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +603,7 @@
 				4914F02B1990745600CD0920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4914F02C1990745600CD0920 /* Build configuration list for PBXNativeTarget "ComposeInKeyTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +612,7 @@
 				4914F02E1990745600CD0920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
