@@ -87,7 +87,7 @@
         [self.chordArray replaceObjectsInRange:NSMakeRange(0, [self.chordArray count]) withObjectsFromArray:@[@"C", @"Dm", @"Em", @"F", @"G", @"Am"]];
     } else if ([key isEqualToString:@"C#"] || [key isEqualToString:@"A#m"]) {
         [self.noteArray replaceObjectsInRange:NSMakeRange(0, [self.noteArray count]) withObjectsFromArray:@[@"C#", @"D#", @"F", @"F#", @"G#", @"A#", @"C"]];
-        [self.chordArray replaceObjectsInRange:NSMakeRange(0, [self.chordArray count]) withObjectsFromArray:@[@"C#", @"D#m", @"E#m", @"F#", @"G#", @"A#m"]];
+        [self.chordArray replaceObjectsInRange:NSMakeRange(0, [self.chordArray count]) withObjectsFromArray:@[@"C#", @"D#m", @"Fm", @"F#", @"G#", @"A#m"]];
     } else if ([key isEqualToString:@"D"] || [key isEqualToString:@"Bm"]) {
         [self.noteArray replaceObjectsInRange:NSMakeRange(0, [self.noteArray count]) withObjectsFromArray:@[@"D", @"E", @"F#", @"G", @"A", @"B", @"C#"]];
         [self.chordArray replaceObjectsInRange:NSMakeRange(0, [self.chordArray count]) withObjectsFromArray:@[@"D", @"Em", @"F#m", @"G", @"A", @"Bm"]];
