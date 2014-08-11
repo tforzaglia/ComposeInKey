@@ -63,7 +63,7 @@
     [super windowDidLoad];
     self.noteTextFieldArray = [[NSMutableArray alloc] initWithArray:@[self.note1, self.note2, self.note3, self.note4, self.note5, self.note6, self.note7]];
     self.chordTextFieldArray = [[NSMutableArray alloc] initWithArray:@[self.chord1, self.chord2, self.chord3, self.chord4, self.chord5, self.chord6]];
-    [self.chordImage setImage:[NSImage imageNamed:@"note.jpeg"]];
+    [self.chordImage setImage:[NSApp applicationIconImage]];
     [self addNotificationObserver];
 }
 

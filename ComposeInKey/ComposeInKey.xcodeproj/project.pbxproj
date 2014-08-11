@@ -20,7 +20,6 @@
 		4914F0261990745600CD0920 /* ComposeInKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914F0251990745600CD0920 /* ComposeInKeyTests.m */; };
 		4914F0341990771600CD0920 /* CIKMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4914F0321990771600CD0920 /* CIKMainWindowController.m */; };
 		4914F0351990771600CD0920 /* CIKMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4914F0331990771600CD0920 /* CIKMainWindow.xib */; };
-		494239091997046E0027AB07 /* note.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 494238F01997046E0027AB07 /* note.jpeg */; };
 		4942390A1997046E0027AB07 /* Am.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F11997046E0027AB07 /* Am.gif */; };
 		4942390B1997046E0027AB07 /* A#.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F21997046E0027AB07 /* A#.gif */; };
 		4942390C1997046E0027AB07 /* A#m.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494238F31997046E0027AB07 /* A#m.gif */; };
@@ -81,7 +80,6 @@
 		4914F0311990771600CD0920 /* CIKMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIKMainWindowController.h; sourceTree = "<group>"; };
 		4914F0321990771600CD0920 /* CIKMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIKMainWindowController.m; sourceTree = "<group>"; };
 		4914F0331990771600CD0920 /* CIKMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIKMainWindow.xib; sourceTree = "<group>"; };
-		494238F01997046E0027AB07 /* note.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note.jpeg; sourceTree = "<group>"; };
 		494238F11997046E0027AB07 /* Am.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Am.gif; sourceTree = "<group>"; };
 		494238F21997046E0027AB07 /* A#.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "A#.gif"; sourceTree = "<group>"; };
 		494238F31997046E0027AB07 /* A#m.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "A#m.gif"; sourceTree = "<group>"; };
@@ -236,7 +234,6 @@
 		494238EF199704530027AB07 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				494238F01997046E0027AB07 /* note.jpeg */,
 				494239081997046E0027AB07 /* A.gif */,
 				494238F11997046E0027AB07 /* Am.gif */,
 				494238F21997046E0027AB07 /* A#.gif */,
@@ -371,7 +368,6 @@
 				4942390C1997046E0027AB07 /* A#m.gif in Resources */,
 				494239191997046E0027AB07 /* F.gif in Resources */,
 				4942390D1997046E0027AB07 /* B.gif in Resources */,
-				494239091997046E0027AB07 /* note.jpeg in Resources */,
 				494239181997046E0027AB07 /* Em.gif in Resources */,
 				4942390B1997046E0027AB07 /* A#.gif in Resources */,
 				494239171997046E0027AB07 /* E.gif in Resources */,
