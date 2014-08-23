@@ -45,6 +45,10 @@
 		494239201997046E0027AB07 /* G#m.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239071997046E0027AB07 /* G#m.gif */; };
 		494239211997046E0027AB07 /* A.gif in Resources */ = {isa = PBXBuildFile; fileRef = 494239081997046E0027AB07 /* A.gif */; };
 		4942392519970F9A0027AB07 /* CIKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4942392419970F9A0027AB07 /* CIKTextField.m */; };
+		498FB8C919A82A2A008691E7 /* CIKWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498FB8C719A82A2A008691E7 /* CIKWelcomeViewController.m */; };
+		498FB8CA19A82A2A008691E7 /* CIKWelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498FB8C819A82A2A008691E7 /* CIKWelcomeView.xib */; };
+		498FB8CE19A82BCD008691E7 /* CIKAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498FB8CC19A82BCD008691E7 /* CIKAppViewController.m */; };
+		498FB8CF19A82BCD008691E7 /* CIKAppView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498FB8CD19A82BCD008691E7 /* CIKAppView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +110,12 @@
 		494239081997046E0027AB07 /* A.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = A.gif; sourceTree = "<group>"; };
 		4942392319970F9A0027AB07 /* CIKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIKTextField.h; sourceTree = "<group>"; };
 		4942392419970F9A0027AB07 /* CIKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIKTextField.m; sourceTree = "<group>"; };
+		498FB8C619A82A2A008691E7 /* CIKWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIKWelcomeViewController.h; sourceTree = "<group>"; };
+		498FB8C719A82A2A008691E7 /* CIKWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIKWelcomeViewController.m; sourceTree = "<group>"; };
+		498FB8C819A82A2A008691E7 /* CIKWelcomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIKWelcomeView.xib; sourceTree = "<group>"; };
+		498FB8CB19A82BCD008691E7 /* CIKAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIKAppViewController.h; sourceTree = "<group>"; };
+		498FB8CC19A82BCD008691E7 /* CIKAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIKAppViewController.m; sourceTree = "<group>"; };
+		498FB8CD19A82BCD008691E7 /* CIKAppView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIKAppView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +183,7 @@
 			children = (
 				4914F02F1990754500CD0920 /* Application */,
 				4942392219970F5D0027AB07 /* Model */,
+				498FB8C519A82985008691E7 /* View */,
 				4914F0301990754E00CD0920 /* Window */,
 				4914F0131990745600CD0920 /* Images.xcassets */,
 				494238EF199704530027AB07 /* Images */,
@@ -271,6 +282,19 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		498FB8C519A82985008691E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				498FB8C619A82A2A008691E7 /* CIKWelcomeViewController.h */,
+				498FB8C719A82A2A008691E7 /* CIKWelcomeViewController.m */,
+				498FB8C819A82A2A008691E7 /* CIKWelcomeView.xib */,
+				498FB8CB19A82BCD008691E7 /* CIKAppViewController.h */,
+				498FB8CC19A82BCD008691E7 /* CIKAppViewController.m */,
+				498FB8CD19A82BCD008691E7 /* CIKAppView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,6 +377,7 @@
 				4942391B1997046E0027AB07 /* F#.gif in Resources */,
 				494239201997046E0027AB07 /* G#m.gif in Resources */,
 				4942391F1997046E0027AB07 /* G#.gif in Resources */,
+				498FB8CF19A82BCD008691E7 /* CIKAppView.xib in Resources */,
 				4914F0061990745600CD0920 /* InfoPlist.strings in Resources */,
 				4942391A1997046E0027AB07 /* Fm.gif in Resources */,
 				4914F0141990745600CD0920 /* Images.xcassets in Resources */,
@@ -377,6 +402,7 @@
 				494239131997046E0027AB07 /* D.gif in Resources */,
 				4914F0351990771600CD0920 /* CIKMainWindow.xib in Resources */,
 				494239121997046E0027AB07 /* C#m.gif in Resources */,
+				498FB8CA19A82A2A008691E7 /* CIKWelcomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4914F00F1990745600CD0920 /* CIKAppDelegate.m in Sources */,
+				498FB8C919A82A2A008691E7 /* CIKWelcomeViewController.m in Sources */,
 				4942392519970F9A0027AB07 /* CIKTextField.m in Sources */,
 				4914F0341990771600CD0920 /* CIKMainWindowController.m in Sources */,
+				498FB8CE19A82BCD008691E7 /* CIKAppViewController.m in Sources */,
 				4914F0081990745600CD0920 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
