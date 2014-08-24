@@ -11,6 +11,8 @@
 
 @interface CIKAppViewController ()
 
+/***** IBOutlets *****/
+
 @property (nonatomic, weak) IBOutlet NSTextField *note1;
 @property (nonatomic, weak) IBOutlet NSTextField *note2;
 @property (nonatomic, weak) IBOutlet NSTextField *note3;
@@ -28,10 +30,10 @@
 
 /***** Properties *****/
 
-@property (nonatomic,strong) NSMutableArray *noteArray;
-@property (nonatomic,strong) NSMutableArray *noteTextFieldArray;
-@property (nonatomic,strong) NSMutableArray *chordArray;
-@property (nonatomic,strong) NSMutableArray *chordTextFieldArray;
+@property (nonatomic, strong) NSMutableArray *noteArray;
+@property (nonatomic, strong) NSMutableArray *noteTextFieldArray;
+@property (nonatomic, strong) NSMutableArray *chordArray;
+@property (nonatomic, strong) NSMutableArray *chordTextFieldArray;
 
 /***** Private Methods *****/
 
